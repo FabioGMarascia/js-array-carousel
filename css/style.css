@@ -12,7 +12,3 @@ body {
 .active {
 	display: block;
 }
-
-.deb {
-	border: 2px dashed blue;
-}
