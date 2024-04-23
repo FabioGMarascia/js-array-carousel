@@ -1,9 +1,18 @@
 /********************* COMMON **********************/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+body {
+	background-color: #222;
 }
-/********************* HEADER **********************/
-/********************** MAIN ***********************/
-/********************* FOOTER **********************/
+
+.slide {
+	height: 40rem;
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
+.deb {
+	border: 2px dashed blue;
+}
