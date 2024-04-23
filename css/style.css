@@ -4,11 +4,28 @@ body {
 	background-color: #222;
 }
 
+/***** SLIDE *****/
 .slide {
-	height: 40rem;
+	height: 36rem;
 	display: none;
 }
 
 .active {
 	display: block;
+}
+
+/***** THUMBNAIL *****/
+.img-thumbnail {
+	height: 10rem;
+}
+
+.thumb {
+	opacity: 0.2;
+	border: 0;
+	padding: 0;
+}
+
+.active-thumb {
+	opacity: 1;
+	padding: 0.25rem;
 }
