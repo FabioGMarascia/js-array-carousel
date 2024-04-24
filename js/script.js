@@ -8,15 +8,11 @@ let active_thumb_i;
 next_btn.addEventListener(`click`, function () {
 	for (let i = 0; i < slides.length; i++) {
 		const slide = slides[i];
-
-		if (slide.classList.contains(`active`)) {
-			slide.classList.remove(`active`);
-			active_img_i = i;
-		}
-
 		const thumb = thumbs[i];
 
-		if (thumb.classList.contains(`active-thumb`)) {
+		if (slide.classList.contains(`active`) && thumb.classList.contains(`active-thumb`)) {
+			slide.classList.remove(`active`);
+			active_img_i = i;
 			thumb.classList.remove(`active-thumb`);
 			active_thumb_i = i;
 		}
@@ -37,16 +33,11 @@ next_btn.addEventListener(`click`, function () {
 prev_btn.addEventListener(`click`, function () {
 	for (let i = 0; i < slides.length; i++) {
 		const slide = slides[i];
-
-		console.log(slide);
-		if (slide.classList.contains(`active`)) {
-			slide.classList.remove(`active`);
-			active_img_i = i;
-		}
-
 		const thumb = thumbs[i];
 
-		if (thumb.classList.contains(`active-thumb`)) {
+		if (slide.classList.contains(`active`) && thumb.classList.contains(`active-thumb`)) {
+			slide.classList.remove(`active`);
+			active_img_i = i;
 			thumb.classList.remove(`active-thumb`);
 			active_thumb_i = i;
 		}
