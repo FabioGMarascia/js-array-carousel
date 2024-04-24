@@ -56,8 +56,8 @@ prev_btn.addEventListener(`click`, function () {
 	let prev_thumb_i = active_thumb_i - 1;
 
 	if (prev_img_i < 0) {
-		slides[3].classList.add(`active`);
-		thumbs[3].classList.add(`active-thumb`);
+		slides[4].classList.add(`active`);
+		thumbs[4].classList.add(`active-thumb`);
 	} else {
 		slides[prev_img_i].classList.add(`active`);
 		thumbs[prev_thumb_i].classList.add(`active-thumb`);

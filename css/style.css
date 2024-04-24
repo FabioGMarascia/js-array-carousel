@@ -6,7 +6,7 @@ body {
 
 /***** SLIDE *****/
 .slide {
-	height: 36rem;
+	height: 38rem;
 	display: none;
 }
 
@@ -16,7 +16,7 @@ body {
 
 /***** THUMBNAIL *****/
 .img-thumbnail {
-	height: 10rem;
+	height: 8rem;
 }
 
 .thumb {
